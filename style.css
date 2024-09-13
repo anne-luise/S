@@ -6,12 +6,18 @@
 }
 :root{
     --branco: white;
-    --cor-de-fundo: rgb(8, 8, 8);
-    --fundo-senha: #3671dd;
-    --fundo-texto: #2852c8;
-    --borda: #020202;
+    --cor-de-fundo: rgb(143, 23, 95);
+    --fundo-senha: #7e0e84;
+    --fundo-texto: #731282;
+    --borda: #030303;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
+}
+
+.cadeado{
+    padding: 24px;
+   width: 100px;
+
 }
 body{
     color: var(--branco);
@@ -102,7 +108,7 @@ label{
     }
 
 .barra{
-    background-color: var(--fundo-senha);
+    background-color: white;
     height: 30px;
     width: 100%;
 }
@@ -122,13 +128,13 @@ label{
     }
     .fraca{
     width: 25%;
-    background-color: #E71B32;
+    background-color: #ff0a0a;
     }
     .media{
-    background-color: #FAF408;
+    background-color: #ffff00;
     width: 50%;
     }
     .forte{
-    background-color: #00FF85;
+    background-color: #2bff00;
     width: 100%;
     }
