@@ -9,6 +9,7 @@ const simbolos = "!@%*?";
 const botoes = document.querySelectorAll(".parametro-senha__botao");
 const campoSenha = document.querySelector("#campo-senha");
 const checkbox = document.querySelectorAll(".checkbox");
+const forcaSenha = document.querySelector(".forca");
 
 botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
@@ -52,8 +53,9 @@ console.log(alfabeto);
     senha = senha + alfabeto[numeroAleatorio];
 }
     campoSenha.value = senha;
+    classificaSenha()
 }
-const checkbox = document.querySelectorAll(".checkbox");
+
 for (i=0; i < checkbox.length;i++){
     checkbox[i].onclick = geraSenha;
 }
@@ -74,3 +76,5 @@ function classificaSenha(){
     }
     
     }
+
+
